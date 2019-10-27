@@ -4,4 +4,4 @@ n=len(tab)
 for i in tab:
     suma+=i
 wynik=suma/n
-print(f"srednia arytmetyczna wynosi: {suma}"
+print(f"srednia arytmetyczna wynosi: {suma}")
