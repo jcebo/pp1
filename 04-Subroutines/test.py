@@ -1,7 +1,9 @@
-def cyfry_tel():
-    for n in range(9):
-        if n in range(2,9,3):
-            print (n+1, " ", end=" "+ "\n")
-        else:
-            print (n+1, " ", end=" ")
-            
+def suma(liczba,n):
+    if n==0:
+        return int(liczba[0])
+    else:
+        return int(liczba[n])+suma(liczba,n-1)
+    
+liczba=input('Podaj liczbę: ')
+print(f'Suma cyfr liczby {liczba} wynosi {suma(liczba,len(liczba)-1)}')
+
