@@ -11,6 +11,6 @@ class University():
     def set_fullname(self, new_fullname):
         self.full_name=new_fullname
 x=University()
-x.set_name('AGH')
 x.print_fullname()
-x.set_fullname()
+x.set_fullname('Uniwersytet Rolniczy')
+x.print_fullname()

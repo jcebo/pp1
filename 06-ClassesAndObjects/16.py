@@ -1,0 +1,10 @@
+from ebook import ebook
+ksiazka=ebook()
+ksiazka.set_title('Morze')
+ksiazka.set_author('Maria Kurek')
+ksiazka.set_pages(154)
+ksiazka.open_book()
+ksiazka.show_status()
+ksiazka.read_page()
+ksiazka.close_book()
+ksiazka.read_page()
