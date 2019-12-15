@@ -1,10 +1,7 @@
 class Film():
-    
-    cinema = "Multikino, Kraków"
-    
+    cinema = "Multikino, Kraków"    
     def __init__(self, title):
-        self.title = title
-    
+        self.title = title    
     def __str__(self):
         return f"{self.title} ({Film.cinema})"
     
@@ -16,5 +13,3 @@ print(film2)
 # zmiana nazwy kina (zmiana wartości zmiennej klasowej)
 Film.cinema = "Kino Kijów, Kraków"
 print(film1)
-print(film2)
-
