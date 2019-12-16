@@ -1,5 +1,4 @@
 class matrix():
-
     @staticmethod
     def create(x,y):
         matrix = []
@@ -12,6 +11,16 @@ class matrix():
             # add row to matrix
             matrix.append(row)
         return matrix
+    @staticmethod
+    def create2(w,h):
+        matrix=[[0 for n in range(w)] for k in range(h)]
+        return matrix
+    @staticmethod
+    def create_unit(x):
+        m=matrix.create2(x,x)
+        for n in range(len(m)):
+            m[n][n]=1
+        return m
 
     @staticmethod
     def print(matrix):
@@ -20,3 +29,7 @@ class matrix():
 
 m = matrix.create(4,3)
 matrix.print(m)
+n=matrix.create2(3,4)
+matrix.print(n)
+l=matrix.create_unit(5)
+matrix.print(l)
