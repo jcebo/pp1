@@ -1,0 +1,11 @@
+{
+  "marka_CPU": "Intel",
+  "szybkość_CPU": 3.4,
+  "podzespoły": [
+    "procesor",
+    "płyta główna",
+    "karta graficzna"
+  ],
+  "działający": true,
+  "rok zakupu": 2015
+}

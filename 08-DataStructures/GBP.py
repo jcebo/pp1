@@ -25,3 +25,9 @@ GBP = {
         }
     ]
 }
+print('Data'+8*' '+'Kurs'+'\n'+19*"=")
+for n in range(len(GBP["rates"])):
+    print (GBP['rates'][n]['effectiveDate'],end='')
+    print (1*' ',GBP['rates'][n]['mid'] )
+    
+        
